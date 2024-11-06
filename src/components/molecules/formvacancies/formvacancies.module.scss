@@ -1,0 +1,51 @@
+@import "../../../styles/variables.scss";
+
+.label {
+    font-size: 0.9rem;
+    color: $color-subtittle;
+    display: block;
+}
+
+.input,
+.textarea,
+.select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 1rem;
+    border-radius: 4px;
+    border: 1px solid $Border-gris;
+    font-size: 0.9rem;
+    color: $color-text;
+
+    &:focus {
+        outline: none;
+        box-shadow: 0 0 4px $Border-gris;
+    }
+}
+
+.textarea {
+    height: 100px;
+}
+
+.select {
+    background: none;
+    appearance: none;
+    cursor: pointer;
+}
+
+.submitButton {
+    width: 100%;
+    padding: 12px;
+    background-color: $button-vacants-normal;
+    color: $Blanco;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+        background-color: $button-vacants-hover;
+    }
+}

@@ -1,0 +1,48 @@
+@import "../../../styles/variables.scss";
+
+.Nav{
+    width: 15rem;
+    height: 2rem;
+    background-color:$Border-gris;
+    border-radius: 3rem;
+
+    ul{
+        display: flex;
+        height: 100%;
+        .link{
+            width: 50%;
+            color: $color-text;
+            height: 100%;
+            border-radius: 3rem;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.3rem;
+
+            &:hover{
+                cursor: pointer;
+                color: $color-text-with-backgraound;
+            }
+        }
+
+
+        .Cactive{
+            color: $color-text-with-backgraound;
+            background-color: $button-company-normal;
+           
+            &:hover{
+                background-color:  $button-company-hover;
+            }
+        }
+
+        .Vactive{
+            color:$color-text-with-backgraound;
+            background-color:$button-vacants-normal ;
+
+            &:hover{
+                background-color: $button-vacants-hover;
+            }
+        }
+    }
+}

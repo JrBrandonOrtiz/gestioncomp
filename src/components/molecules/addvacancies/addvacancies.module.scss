@@ -1,0 +1,19 @@
+@import "../../../styles/variables.scss";
+
+.buton{
+    background: $button-vacants-normal;
+    border: none;
+    width: 13rem;
+    height: 2rem;
+    border-radius: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    color: $color-text-with-backgraound;
+
+    &:hover{
+        cursor: pointer;
+        background-color:$button-vacants-hover;
+    }
+}

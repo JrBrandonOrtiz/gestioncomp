@@ -1,0 +1,19 @@
+@import "../../../styles/variables.scss";
+
+.divContainer {
+    background-color: $Blanco;
+    width: 80%; 
+    max-width: 1200px;
+    min-height: 95vh; 
+    margin: 0 auto;
+    border-radius: 10px; 
+    border: 0px 4px 10px $Border-gris; 
+    padding: 1rem; 
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    .tittle{
+        text-align: center;
+        color: $color-tittle;
+    }
+}

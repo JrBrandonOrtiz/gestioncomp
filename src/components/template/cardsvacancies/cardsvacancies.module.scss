@@ -1,0 +1,17 @@
+.container {
+    width: 100%;
+    height: 22rem;
+    gap: 0.8rem;
+    display: flex;
+    flex-direction: column;
+
+    .cardsGrid {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+        justify-content: center;
+        width: 100%;
+        height: 90%;
+    }
+
+}

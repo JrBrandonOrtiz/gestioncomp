@@ -1,0 +1,62 @@
+@import "../../../styles/variables.scss";
+
+.container {
+    display: flex;
+    flex-direction: column;
+
+    .title {
+        font-size: 1.5rem;
+    }
+
+    .text {
+        font-size: 1rem;
+    }
+}
+
+.actions {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+
+    gap: 0.5rem;
+
+    .buttonEdit,.buttonDelete,.buttonEditVacancies{
+        width: 1.8rem;
+        height: 1.5rem;
+        border: 0.1rem solid $Border-gris;
+        background: none;
+        border-radius: 0.2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &:hover{
+            cursor: pointer;
+        }
+    }
+    .buttonEdit{
+        color: $button-company-normal;
+
+        &:hover{
+            background-color: $button-company-hover;
+            color: $button-delete-hover-texto;
+        }
+    }
+
+    .buttonEditVacancies{
+        color: $button-vacants-normal;
+        &:hover{
+            background-color: $button-vacants-hover;
+            color: $button-delete-hover-texto;
+        }
+    }
+
+    .buttonDelete{ 
+        color: $button-delete-texto;
+
+        &:hover{
+            background-color: $button-delete-hover;
+            color: $button-delete-hover-texto;
+        }
+    }
+}

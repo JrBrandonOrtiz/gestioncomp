@@ -1,0 +1,25 @@
+@import "../../../styles/variables.scss";
+
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.8rem;
+    margin-top: 2rem;
+}
+
+.paginationButton {
+    width: 1.5rem;
+    height: 2rem;
+    border-radius: 3rem;
+    background-color: $Gris-claro-paginacion-activo;
+    border: none;
+    color: $color-tittle;
+    cursor: pointer;
+
+    &:disabled {
+        background-color: $Gris-claro-paginacion;
+        cursor: not-allowed;
+    }
+}

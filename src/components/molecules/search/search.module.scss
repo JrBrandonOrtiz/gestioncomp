@@ -1,0 +1,33 @@
+@import "../../../styles/variables.scss";
+
+.container{
+    width: 15rem;
+    height: 2rem;
+    border-radius: 3rem;
+    border: 0.1rem solid $Border-gris;
+    gap: 0.5rem;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    color: $color-subtittle;
+
+    Input{
+        border: none;
+        background: none;
+        width: 100%;
+        height: 100%;
+        color: $color-subtittle;
+
+       &::placeholder{
+        color: $color-subtittle;
+       }
+        
+        &:active{
+            outline: none;
+        }
+
+        &:focus{
+            outline: none;
+        }
+    }
+}

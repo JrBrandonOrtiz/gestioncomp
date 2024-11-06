@@ -1,0 +1,37 @@
+$Border-gris: rgb(229, 231, 235);
+
+// backgraound
+$MoradoClaro: rgb(192, 132, 252);
+$Rosa: rgb(255, 80, 167);
+$Rojo: rgb(236, 69, 69);
+
+//backgraound children
+$Blanco: rgb(255, 255, 255);
+$Gris-claro-paginacion: rgb(243, 244, 246);
+$Gris-claro-paginacion-activo: rgb(229, 231, 235);
+
+//text
+$color-tittle: rgb(31, 41, 55);
+$color-subtittle: rgb(75, 85, 99);
+$color-text: rgb(107, 114, 128);
+$color-text-with-backgraound: rgb(255, 255, 255);
+
+//buttons vacants
+$button-vacants-normal: rgb(168, 85, 247);
+$button-vacants-hover: rgb(147, 51, 234);
+
+//buttons company
+$button-company-normal: rgb(236, 72, 153);
+$button-company-hover: rgb(219, 39, 119);
+
+//buttons delete
+$button-delete-texto: rgb(239, 68, 68);
+$button-delete-hover: rgb(220, 38, 38);
+$button-delete-hover-texto: rgb(254, 242, 242);
+
+// Sombra
+.card {
+    box-shadow: 0 2px 4px $Border-gris;
+}
+
+
